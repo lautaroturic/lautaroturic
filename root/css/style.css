@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@media only screen and (max-width: 400px) {
+  :root {
+    --clr: #222327;
+    --tamanio: 75px;
+    --ancho: 300px;
+    --alturaIcon: 75px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  :root {
+    --clr: #222327;
+    --tamanio: 25%;
+    --ancho: 400px;
+    --alturaIcon: 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'PT Serif', serif;
+}
+
+* body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background: var(--clr);
+}
+
+* body nav {
+  width: 100%;
+  height: 25%;
+  background: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+* body nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: var(--ancho);
+}
+
+* body nav ul li {
+  position: relative;
+  list-style: none;
+  width: var(--tamanio);
+  height: var(--tamanio);
+  z-index: 1;
+}
+
+* body nav ul li a {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+}
+
+* body nav ul li a .icon {
+  position: relative;
+  display: block;
+  line-height: var(--alturaIcon);
+}
+/*# sourceMappingURL=style.css.map */
