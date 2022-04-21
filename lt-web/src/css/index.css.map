@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CAAG;;ADDjB,SAAS,CAAT,IAAS;AACT,SAAS,CAAT,UAAS;AACT,SAAS,CAAT,SAAS",
+    "sources": [
+        "../sass/index.scss",
+        "../sass/_style.sass"
+    ],
+    "names": [],
+    "file": "index.css"
+}
