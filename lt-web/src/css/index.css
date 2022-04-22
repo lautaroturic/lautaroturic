@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+#App {
+  background-image: url(../img/FondoPintura.jpeg);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
