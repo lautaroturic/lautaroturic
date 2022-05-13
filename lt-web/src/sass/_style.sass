@@ -1,5 +1,46 @@
 *
     margin: 0
     padding: 0
-#App
-    background-image: url(../img/FondoPintura.jpeg)
+    box-sizing: border-box
+    font-family: 'Arvo', serif
+    font-weight: 400
+body
+    display: flex
+    justify-content: center
+    align-items: center
+    min-height: 100vh
+    background-color: #27282c
+
+.navLink
+    position: relative
+    background-color: #fff
+    letter-spacing: 1.5px
+    padding: 5px 10px
+    transition: 0.5s
+    border-radius: 5px
+    &:hover
+        transform: scale(1.05)
+        box-shadow: 0 0 20px
+        i::before
+            width: 25px
+            left: 30%
+    &::before
+        content: ''
+        position: absolute
+        border-radius: 5px
+        inset: 3px
+        background: #27282c
+    span
+        position: relative
+        z-index: 1
+        overflow: visible
+    i
+        content: ''
+        position: absolute
+        top: 0
+        left: 80%
+        width: 15px
+        height: 7px
+        background: #27282c
+        transform: translate(-50%, -7%) skewX(325deg)
+        transition: 0.5s
