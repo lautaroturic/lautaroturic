@@ -7,7 +7,7 @@ const App = () => {
         <div id="App" className='min-h-screen flex-col'>
             <Header />
             <Routes>
-                <Route exact path="/" element={<Home />} />
+                <Route  path="/" element={<Home />} />
 
             </Routes>
             <Footer />
